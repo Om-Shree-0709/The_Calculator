@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculate Me! - My Simple Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+ <div class="container">
+    <div class="calculator">
+      <form>
+        <div class="display">
+          <input type="text" name="display" aria-label="Calculator Display" id="calculatorDisplay" />
+        </div>
+
+        <div>
+          <input type="button" value="AC" id="clearButton" >
+          <input type="button" value="DE" id="deleteButton" >
+          <input type="button" value="." class="operatorButton">
+          <input type="button" value="/" class="operatorButton">
+        </div>
+
+        <div>
+          <input type="button" value="7" class="numberButton">
+          <input type="button" value="8" class="numberButton">
+          <input type="button" value="9" class="numberButton">
+          <input type="button" value="*" class="operatorButton">
+        </div>
+
+        <div>
+          <input type="button" value="4" class="numberButton">
+          <input type="button" value="5" class="numberButton">
+          <input type="button" value="6" class="numberButton">
+          <input type="button" value="-" class="operatorButton">
+        </div>
+
+        <div>
+          <input type="button" value="1" class="numberButton">
+          <input type="button" value="2" class="numberButton">
+          <input type="button" value="3" class="numberButton">
+          <input type="button" value="+" class="operatorButton">
+        </div>
+
+        <div>
+          <input type="button" value="00" class="numberButton">
+          <input type="button" value="0" class="numberButton">
+          <input type="button" value="=" class="equal" id="equalButton">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
