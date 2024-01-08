@@ -16,6 +16,12 @@ This is a basic web calculator created using HTML, CSS, and JavaScript. It allow
 
 These instructions will help you set up and run the project on your local machine.
 
+## Author
+
+Created by Om Shree. Connect with me on [LinkedIn](https://www.linkedin.com/in/om-shree-04372118a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).
+
+&copy; 2024 Text to Speech Converter
+
 
 
 
